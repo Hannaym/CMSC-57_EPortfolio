@@ -1,0 +1,104 @@
+.card .text p, li {
+    text-align: justify;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(6px);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .card p {
+    margin-top: -10px;
+  }
+  
+  .card.reverse {
+    flex-direction: row-reverse;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    box-shadow: none;
+    margin-bottom: -35px;
+  }
+  
+  .card .text {
+    flex: 1 1 50%;
+  }
+  
+  .card .text h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .card .text p,
+  .card .text ul {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .card .image {
+    flex: 1 1 40%;
+  }
+  
+  .card .image p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card .image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.187);
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding-left: 30px;
+  }
+  
+  #learnings ul{
+    list-style-type:square;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.75rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--text);
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card,
+    .card.reverse {
+      flex-direction: column;
+    }
+  
+    .card .image img {
+      max-width: 100%;
+    }
+  }
+  

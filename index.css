@@ -88,11 +88,6 @@ nav a:hover::after {
     margin-top: -20px;
 }
 
-/* .hero h3 {
-    margin-top: -15px;
-    color: var(--primary);
-} */
-
 .hero p {
     font-size: 1.15rem;
     margin-top: 1.5rem;

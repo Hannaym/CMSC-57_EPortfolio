@@ -61,9 +61,12 @@
 
 .card .image img {
   width: 100%;
-  height: 250px;
   border-radius: 12px;
   box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.187);
+}
+
+#reflection img {
+  height: 250px;
 }
 
 .card ul {

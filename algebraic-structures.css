@@ -1,0 +1,24 @@
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  margin: 2rem auto;
+  background: linear-gradient(to right, #b5838d, #ffcad4);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  opacity: 0.8;
+}
+
+.secondline {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.reflect {
+    text-align: center;
+    color: #555;
+}
+
+#reflection img {
+    height: 400px;
+}

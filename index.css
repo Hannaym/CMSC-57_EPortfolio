@@ -213,3 +213,14 @@ footer {
   object-position: center; 
   border-radius: 10px;   
 }
+
+.social-links a {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #444;
+}
+
+.social-links a:hover {
+  color: var(--primary);
+}

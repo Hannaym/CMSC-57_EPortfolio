@@ -109,3 +109,7 @@ footer {
     max-width: 100%;
   }
 }
+
+#graph {
+    padding: 20px;
+}

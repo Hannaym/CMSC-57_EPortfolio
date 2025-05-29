@@ -127,8 +127,12 @@ nav a:hover::after {
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
-.intro-text {
-    flex: 1;
+.intro-text h2 {
+    margin-bottom: 20px;
+}
+.intro-text p {
+    margin-bottom: -5px;
+    font-size: .90rem;
 }
 
 .topics h2 {
@@ -200,4 +204,12 @@ footer {
     .intro {
         flex-direction: column;
     }
+}
+
+.me-img {
+  width: 200px;
+  height: 390px;
+  object-fit: cover;   
+  object-position: center; 
+  border-radius: 10px;   
 }
